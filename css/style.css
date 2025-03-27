@@ -1,0 +1,40 @@
+body{
+
+    background-color: white;
+}
+
+
+h1{
+    font-family: fantasy;
+}
+
+
+#css_menu h2{
+    color: rgb(6, 6, 6);
+    background-color: rgb(188, 235, 255);
+    margin-left: 21m;
+    margin-right: 21em;
+    padding-left: 5%;
+    background-attachment: fixed;
+}
+
+
+
+#JavaScript h2{
+    color: rgb(6, 6, 6);
+    background-color: burlywood;
+    margin-left: 22em;
+    margin-right: 22em;
+    padding-left: 3%;
+    background-attachment: fixed;
+}
+
+
+#Atributos_css h2{
+    color: rgb(6, 6, 6);
+    background-color: thistle;
+    margin-left: 17em;
+    margin-right: 17em;
+    padding-left: 5%;
+    background-attachment: fixed;
+}

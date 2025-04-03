@@ -1,0 +1,114 @@
+body{
+    margin: 0; /* Quita el margen por defecto del navegador */
+    padding: 1em; /* Quita el padding por defecto */
+    font-family:inherit; /* Fuente básica para todo el sitio */
+    background-color:white; /* Color de fondo */
+    width: 100%;
+    
+}
+
+
+body h1{
+    color:hsl(180, 70%, 20%);
+    border-radius: 1.2em;
+    font-family: Cambria, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.menu{
+    width: 100%; /* El menú se expande a lo ancho de la página */
+    background-color:rgb(230, 172, 246); /* Fondo del menú */
+    border-radius: 1.2em;
+}
+
+
+.menu ul {
+    display: flex; /* Muestra los elementos del menú en línea horizontal */
+    padding: 0; /* Elimina padding de la lista */
+    margin: 0; /* Elimina margen de la lista */
+    list-style: none; /* Quita los puntos de lista */
+    justify-content: center; /* Centra los elementos del menú horizontalmente */
+    display: flex;
+    border-radius: 1.2em;
+}
+
+
+.menu a {
+    display: block; /* Hace que el enlace ocupe todo el bloque */
+    padding: 1em 2em; /* Espaciado interno (vertical y horizontal) */
+    background-color:rgb(230, 172, 246); /* Color de fondo del enlace */
+    text-decoration: none; /* Quita subrayado de los enlaces */
+    color: #191C26; /* Color del texto */
+    transition: background-color 0.3s; /* Transición suave al pasar el mouse */
+}
+
+
+#css_menu {
+    background-color:rgb(162, 227, 253); /* Fondo del CSS */
+    border-radius: 1.2em; /*Redondea los bordes del fondo*/
+    position: absolute;
+    width: 100%;
+}
+
+#css_menu h2{
+    color: rgb(56, 99, 117);  ;
+    text-align: center;
+}
+
+
+.info_css{
+    margin: 1em;
+}
+
+
+#JavaScript {
+    background-color:rgb(253, 249, 172); /* Fondo de Java */
+    border-radius: 1.2em;
+    position: absolute;
+    width: 1005;
+}
+
+
+#JavaScript h2{
+    color: rgb(128, 123, 46);  ;
+    text-align: center;
+}
+
+
+#Atributos_css {
+    background-color:rgb(162, 252, 255); /*Agrega color al fondo de la clase*/
+    border-radius: 1.2em;
+    position: absolute;
+    padding: 0.5em;
+}
+
+
+#Atributos_css h2{
+    color: rgb(37, 99, 101);
+}
+
+table{
+    background-color: rgb(86, 184, 187);
+    border-radius: 1.2em;
+    overflow: auto;
+    padding: 2em;
+}
+
+.cuerpo{
+    width: 100%;
+    padding: 1em;
+}
+
+
+a{
+    font-style: italic;
+}
+
+
+footer{
+    text-align: center;
+}
+
+footer hr {
+    color: rgb(37, 99, 101);
+}
